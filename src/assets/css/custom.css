@@ -1,0 +1,29 @@
+.create-logout-button {
+    margin-bottom: 20px;
+    float: right;
+}
+
+h3 {
+    text-align: center;
+}
+
+.main-div {
+    align-items: center;
+    border-radius: 6px;
+    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    padding: 20px;
+}
+
+.forms {
+    width: 40%;
+}
+
+.login {
+    align-items: unset;
+    border-radius: 6px;
+    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.1);
+    width: 100%;
+    padding: 20px;
+    margin-right: 150px;
+}
