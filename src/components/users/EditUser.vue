@@ -78,7 +78,7 @@ export default {
       updateUser: 'updateUser'
     }),
     getEditUser () {
-      return this.allUsers.filter(user => user.id == this.$route.params.id)
+      return this.allUsers.filter(user => user.id === parseInt(this.$route.params.id))
     },
     submitForm (formName) {
       this.$refs[formName].validate((valid) => {
